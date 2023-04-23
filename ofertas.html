@@ -8,43 +8,77 @@
 </head>
 <body>
     <center>
+        <img src="ofertas imagen.jpg" alt="100">
     <table border="3">
         <caption>
             Ofertas de ultima hora
         </caption>
         <tr>
             <th>Destinos</th>
-            <th>Fecha de Salida</th>
-            <th>Pension</th>
+            <th>Medios de Transporte</th>
+            <th>Estadía</th>
             <th>Tarifa</th>
         </tr>
         <tr>
             <td>Bariloche</td>
-            <td>15/05/23 20:00hs</td>
+            <td>Bus/Avion</td>
             <td>3 dias/2 noches</td>
             <td>$48.000</td>
         </tr>
         <tr>
             <td>Tandil</td>
-            <td>19/05/23 00:00hs</td>
+            <td>Bus</td>
             <td>3 dias/2 noches</td>
             <td>$26.000</td>
         </tr>
         <tr>
             <td>Salta</td>
-            <td>02/05/23 16:00hs</td>
+            <td>Bus/Avion</td>
             <td>5 dias/4 noches</td>
             <td>$62.000</td>
         </tr>
         <tr>
             <td rowspan="3">Norte Argentino</td>
-            <td>12/05/23 16:00hs</td>
+            <td>Bus/Avion</td>
             <td>7 dias/6 noches</td>
             <td>$82.432</td>
         </tr>
     </table>
 </center>
+<center>
     <br>
+    <form action="">
+        <h3><label>Seleccione Destino:</label></h3>
+        <br>
+        <select name="Destino" id="Destino">
+           <option value="Bar">Bariloche</option>
+           <option value="Tan">Tandil</option>
+           <option value="Sal">Salta</option>
+           <option value="NA">Norte Argentino</option>
+        </select>
+        <br>
+        <h3><label>Medios de Transporte:</label></h3>
+        <br>
+        Salidas en Bus<input type="radio" name="Medios de Transporte"><br>
+        <br>
+        Salidas en Avion<input type="radio" name="Medios de Transporte"><br>
+        <br>
+        <h3><label>Ingresar dd/mm/aaaa de estadía: </label></h3>
+        <label>Desde</label>
+       <input type="text" name="Desde"><br>
+       <br>
+       <label>Hasta</label>
+       <input type="text" name="Hasta"><br>
+       <br>
+       Presione "Buscar" para consultar disponibilidad <br>
+       <br>
+       <input type="submit" value="Buscar">
+
+    </form>
+    </center>
 
 </body>
+<footer>
+    Derechos Reservados &copy; 2023
+ </footer>
 </html>
