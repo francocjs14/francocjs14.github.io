@@ -1,0 +1,14 @@
+*{margin: 0px;
+  padding: 0px;
+}
+body{
+    background-color: powderblue;
+}
+a{
+    color: black;
+    text-decoration: none;
+    padding-bottom: 30px;
+}
+h1{
+    padding-top: 30px;
+}
