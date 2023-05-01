@@ -2,9 +2,12 @@
   padding: 0px;
 }
 /* etiquetas principales */
+header{
+    
+}
 body{
     background-color: powderblue;
-    background-image: url("turismo-e1579550648680.jpg");
+    background-image: url("fondo2.jpg");
     background-image: no-repeat;
 }
 a{
